@@ -1,0 +1,16 @@
+{% extends "layout.html.twig" %}
+
+{% block body %}
+    
+<div id="jTable"></div>
+    
+<script type='text/javascript'>
+jQuery(function() {
+    $('#jTable').jtable({
+        title: 'Resultats'
+    });
+    $('#jTable-volunteers').jtable("load");
+});
+</script>
+    
+{% endblock %}

@@ -1,0 +1,31 @@
+{# templates/views/index.html.twig #}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Query Builder</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="dist/bootstrap-3.3.5/css/bootstrap.min.css">
+        <link rel="stylesheet" href="dist/jstree/dist/themes/default/style.min.css" />
+        <link href="dist/jtable.2.4.0/themes/lightcolor/blue/jtable.css" rel="stylesheet" type="text/css" />
+        <script src="dist/jquery-2.1.4/jquery.min.js"></script>
+        <script src="dist/jquery-ui-1.11.4/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="dist/jtable.2.4.0/external/json2.min.js"></script>
+        <script type="text/javascript" src="dist/jtable.2.4.0/jquery.jtable.min.js"></script>
+        <script src="dist/bootstrap-3.3.5/js/bootstrap.min.js"></script> 
+        <script src='dist/jstree/dist/jstree.min.js'></script>
+        <script type="text/javascript" src="dist/tableExport.jquery.plugin/tableExport.js"></script>
+        <script type="text/javascript" src="dist/tableExport.jquery.plugin/jquery.base64.js"></script>
+        <script type="text/javascript" src="dist/battatech_excelexport/dist/jquery.battatech.excelexport.min.js"></script>
+        <script type="text/javascript" src="dist/moment/moment.js"></script>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                {% block body %}
+                {% endblock %}
+            </div>
+            <footer></footer>
+        </div>
+    </body>
+</html>
